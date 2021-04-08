@@ -1,0 +1,12 @@
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\bin\Debug\DocSolid.Test.Model.dll.config
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\bin\Debug\DocSolid.Test.Model.dll
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\bin\Debug\DocSolid.Test.Model.pdb
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\bin\Debug\EntityFramework.dll
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\bin\Debug\EntityFramework.xml
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\obj\Debug\DocSolid.Test.Model.csproj.CoreCompileInputs.cache
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\obj\Debug\DocSolid.Test.Model.csproj.CopyComplete
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\obj\Debug\DocSolid.Test.Model.dll
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\obj\Debug\DocSolid.Test.Model.pdb
+C:\projects\DocSolution.Test\DocSolution.Test\DocSolid.Test.Model\obj\Debug\DocSolid.Test.Model.csprojAssemblyReference.cache

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SolidDocTestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BitcoinPriceHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LastPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="LastChange" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Volume" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="HighPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="LowPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SolidDocTestEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BitcoinPriceHistories" EntityType="Self.BitcoinPriceHistory" />
+  </EntityContainer>
+</Schema>

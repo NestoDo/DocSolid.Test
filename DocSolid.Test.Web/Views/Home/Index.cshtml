@@ -1,0 +1,35 @@
+﻿@model List<Docsolid.Test.Web.Models.ViewModel.ListBitcoinPriceHistoryViewModel>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>ViewBag.Title</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <tr>
+                <td>Id</td>
+                <td>CreateDate</td>
+                <td>LastPrice</td>
+                <td>LastChange</td>
+                <td>Volume</td>
+                <td>HighPrice</td>
+                <td>LowPrice</td>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.CreateDate</td>
+                    <td>@item.LastPrice</td>
+                    <td>@item.LastChange</td>
+                    <td>@item.Volume</td>
+                    <td>@item.HighPrice</td>
+                    <td>@item.LowPrice</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

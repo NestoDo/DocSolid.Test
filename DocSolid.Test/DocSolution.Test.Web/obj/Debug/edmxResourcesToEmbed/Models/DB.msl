@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SolidDocTestModelStoreContainer" CdmEntityContainer="SolidDocTestEntities">
+    <EntitySetMapping Name="BitcoinPriceHistories">
+      <EntityTypeMapping TypeName="SolidDocTestModel.BitcoinPriceHistory">
+        <MappingFragment StoreEntitySet="BitcoinPriceHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastPrice" ColumnName="LastPrice" />
+          <ScalarProperty Name="LastChange" ColumnName="LastChange" />
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="HighPrice" ColumnName="HighPrice" />
+          <ScalarProperty Name="LowPrice" ColumnName="LowPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
